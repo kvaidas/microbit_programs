@@ -17,7 +17,7 @@ input.onButtonPressed(Button.A, () => {
     delay = (delay + 10) % 100
     basic.showNumber(delay / 10)
 })
-strip = neopixel.create(DigitalPin.P2, 1, NeoPixelMode.RGB)
+strip = neopixel.create(DigitalPin.P2, 60, NeoPixelMode.RGB)
 red = 255
 green = 0
 blue = 0
